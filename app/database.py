@@ -3,6 +3,7 @@ from dotenv import load_dotenv
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
 from sqlalchemy.exc import OperationalError
+
 # Pick env file by APP_ENV (default dev)
 envfile = {
     "dev": ".env.dev",
